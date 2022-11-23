@@ -1,0 +1,5 @@
+insert into branch values('SBI_Chamrajpet','Bangalore',50000);
+insert into branch values('SBI_ResidencyRoad','Bangalore',10000);
+insert into branch values('SBI_ShivajiRoad','Bangalore',20000);
+insert into branch values('SBI_parlimentRoad','Delhi',10000);
+insert into branch values('SBI_JantarMantar','Delhi',50000);
