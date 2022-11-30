@@ -1,0 +1,4 @@
+select customer_name , count(distinct(ba.branch_name)) from depositer d,bankaccount ba,branch b
+where d.acc_no =ba.acc_no AND ba.branch_name=b.branch_name and branch_city = 'delhi'
+group by customer_name
+having count(distinct ba.branch_name) = (select count(branch_name) from branch where branch_city = 'delhi');
